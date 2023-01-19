@@ -82,9 +82,12 @@ svg:not(:root) {
 }
 
 @keyframes pos {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: rotate(-6deg);
     }
+
     50% {
         transform: rotate(6deg);
     }
